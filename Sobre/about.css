@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+nav {
+  background-color: #fff;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+ul li a:hover {
+  color: #fff;
+  background-color: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  div{
+    height: 100%;
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    display: table;
+  }
+  .cabecalho{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+  }
+  .cabecalho-img{
+    height: 150px;
+    border-radius: 100%;
+  }
+ .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+/* Página Sobre */
+
+/* Página Sobre */
+
+.sobre {
+  background-color: #3c7b88;
+  padding: 20px;
+}
+
+.sobre h2 {
+  font-size: 24px;
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  color: #FFF2E7;
+  text-align: center;
+}
+
+.sobre p {
+  font-size: 16px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  color: #FFF2E7;
+  text-align: justify;
+}
+
+/* Botão da página Sobre */
+
+.sobre-botao {
+  background-color: #FFF2E7;
+  width: 200px;
+  height: 150px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3c7b88;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobre-imagens-botao {
+  text-align: center;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  background-color: #3c7b88;
+}
+
+/* Rodapé */
+
+.rodape {
+  background-color: #3c7b88;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape p {
+  font-size: 16px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  color: #FFF2E7;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: #FFF2E7;
+}
