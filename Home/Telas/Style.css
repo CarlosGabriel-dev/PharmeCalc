@@ -95,7 +95,8 @@
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight:bold;
   font-size: 20l,l,pkjnnoijiopx;
   color: #2F2325;
   vertical-align: middle;
@@ -110,6 +111,7 @@ text-align: center;
 border-radius: 10%;
 width: 50px;
 height: 50px;
+margin: 25px;
 }
 
 .conteudo-inicial{
