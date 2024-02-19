@@ -3,83 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PharmeCalc</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="/home/telalogin-cadastro/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-
 <body>
-
     <div class="container">
-
-        <div class="content first-content"> <!-- first-content -->
-
-            <div class="first-column"> <!-- first-column -->
-
-                <h2 class="title">Bem vindo de volta!</h2>
-                <p class="description">Por favor faça login com suas informações pessoais</p>
-                <p class="description">Para se manter conectado conosco</p>
-                <button class="button">Conecte-se</button>
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">bem vindo de volta!</h2>
+                <p class="description description-primary">Para se manter conectado conosco</p>
+                <p class="description description-primary">por favor faça login com suas informações pessoais</p>
+                <button id="signin" class="btn btn-primary">conectar-se</button>
+            </div>    
+            <div class="second-column">
+                <h2 class="title title-second">criar uma conta
+                </h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        
+                </div><!-- social media -->
+                <p class="description description-second">ou use seu e-mail para inscrição:</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    
+                    
+                    <button class="btn btn-second">inscrever-se</button>        
+                </form>
+            </div><!-- second column -->
+        </div><!-- first content -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Olá Amigo</h2>
+                <p class="description description-primary">Insira seus dados pessoais</p>
+                <p class="description description-primary">e comece a jornada conosco</p>
+                <button id="signup" class="btn btn-primary">inscrever-se</button>
             </div>
-
-        </div><!-- first-content -->
-
-        <div class="second-column"> <!-- second-column -->
-
-            <h2 class="title">Criar uma conta</h2>
-
-            <div class="social-media"> <!-- social-media -->
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Google</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                </ul>
-            </div> <!-- social-media -->
-
-            <p class="description">Use seu e-mail para cadastro</p>
-
-            <from class="from">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="e-mail">
-                <input type="password" placeholder="senha">
-                <button class="button">inscrever-se</button>
-            </from>
-
-        </div> <!-- second-column -->
-
-        <div class="content second-content"> <!-- secon-content -->
-
-            <div class="content firt-content"> <!-- first-content -->
-
-                <h2 class="title">Olá amigo!</h2>
-                <p class="description">Insira seus dados pessoais</p>
-                <p class="description">e inicie os dados pessoais</p>
-                <button class="button">inscrever-se</button>
-    
-            </div><!-- first-content -->
-    
-            <div class="second-column"> <!-- second-column -->
-    
-                <h2 class="title">Faça login seu login aqui</h2>
-    
-                <div class="social-media"> <!-- social media -->
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Google</a></li>
-                        <li><a href="#">Linkedin</a></li>
+            <div class="second-column">
+                <h2 class="title title-second">PharmeCalc</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
                     </ul>
-                </div> <!--social media-->
-    
-                <p class="description">Use sua conta de e-mail</p>
-    
-                <from class="from">
-                    <input type="email" placeholder="e-mail">
-                    <input type="password" placeholder="senha">
-                    <a href="#">Esqueceu sua senha?</a>
-                    <button class="button">Conecte-se</button>
-                </from>
+                </div><!-- social media -->
+                <p class="description description-second">ou use sua conta de e-mail:</p>
+                <form class="form">
                 
-            </div> <!--second-column-->
-        </div> 
-    </div><!-- secon-content -->
-
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                    <button class="btn btn-second">conectar-se</button>
+                </form>
+            </div><!-- second column -->
+        </div><!-- second-content -->
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
