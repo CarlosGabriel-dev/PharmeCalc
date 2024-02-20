@@ -9,9 +9,16 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'home')));
+app.use(express.static(path.join(__dirname, 'inicial')));
+app.use(express.static(path.join(__dirname, 'TelaLogin')));
+app.use(express.static(path.join(__dirname, 'sobre')));
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, 'home', 'telas', 'index.html'))
+    res.sendFile(path.join(__dirname, 'home', 'inicial', 'index.html'))
+});
+
+app.get('/about', function (req, res) {
+    res.sendFile(path.join(__dirname, 'home', 'sobre', 'about.html'))
 });
 
 app.listen(port, () => {
