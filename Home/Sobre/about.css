@@ -18,9 +18,9 @@ ul li a {
   font-size: 16px;
 }
 
-ul li a:hover {
+ul li a:hover{
   color: #fff;
-  background-color: #000;
+  background-color: #0dd4db;
 }
 * {
     margin: 0;
