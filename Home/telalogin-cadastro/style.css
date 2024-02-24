@@ -26,7 +26,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #58af9b;
+    background-color: #0dd4db;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -44,7 +44,7 @@ body {
     color: #fff;
 }
 .title-second {
-    color: #58af9b;
+    color: #0dd4db;
 }
 .description {
     font-size: 14px;
@@ -55,7 +55,7 @@ body {
     color: #fff;
 }
 .description-second {
-    color: #7f8c8d;
+    color: #0dd4db
 }
 .btn {
     border-radius: 15px;
@@ -77,17 +77,17 @@ body {
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color: #0dd4db;
 }
 .btn-second {
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #0dd4db;
+    border: 1px solid #0dd4db;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid #0dd4db;
+    color: #0dd4db;
 }
 .first-content {
     display: flex;
@@ -116,9 +116,9 @@ body {
     transition: background-color .5s;
 }
 .link-social-media:hover .item-social-media{
-    background-color: #58af9b;
+    background-color: #0dd4db;
     color: #fff;
-    border-color: #58af9b;
+    border-color: #0dd4db;
 }
 .list-social-media {
     display: flex;
