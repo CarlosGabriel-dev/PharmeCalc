@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'home')));
-app.use(express.static(path.join(__dirname, 'inicial')));
+ app.use(express.static(path.join(__dirname, 'inicial')));
 app.use(express.static(path.join(__dirname, 'TelaLogin')));
 app.use(express.static(path.join(__dirname, 'sobre')));
 app.use(express.static(path.join(__dirname, 'calculo')));
