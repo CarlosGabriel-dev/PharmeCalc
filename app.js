@@ -7,23 +7,18 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'home')));
- app.use(express.static(path.join(__dirname, 'inicial')));
-app.use(express.static(path.join(__dirname, 'TelaLogin')));
-app.use(express.static(path.join(__dirname, 'sobre')));
-app.use(express.static(path.join(__dirname, 'calculo')));
+app.use(express.static(path.join(__dirname, 'pages')));
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, 'home', 'inicial', 'index.html'))
+    res.sendFile(path.join(__dirname, 'pages', 'index.html'))
 });
 
 app.get('/about', function (req, res) {
-    res.sendFile(path.join(__dirname, 'home', 'sobre', 'about.html'))
+    res.sendFile(path.join(__dirname, 'pages','about.html'))
 });
 
 app.get('/calculo', function (req, res) {
-    res.sendFile(path.join(__dirname, 'home', 'calculo', 'calculo.html'))
+    res.sendFile(path.join(__dirname, 'pages','calculo.html'))
 });
 
 app.listen(port, () => {

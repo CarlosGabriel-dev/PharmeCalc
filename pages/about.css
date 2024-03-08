@@ -19,8 +19,7 @@ ul li a {
 }
 
 ul li a:hover{
-  color: #fff;
-  background-color: #0dd4db;
+  color: #0dd4db;
 }
 * {
     margin: 0;
@@ -45,7 +44,7 @@ ul li a:hover{
     font-size: 18px
   }
   .cabecalho-img{
-    height: 150px;
+    height: 100px;
     border-radius: 100%;
   }
  .cabecalho-menu {

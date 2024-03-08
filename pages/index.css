@@ -26,10 +26,7 @@
   }
 
   ul li a:hover{
-    color: #fff;
-    background-color: #0dd4db;
-    border-radius: 10px;
-    border: 2px solid #000;
+    color: #0dd4db;
   }
 
   div{
@@ -93,7 +90,7 @@
   background-color: #ffffff;
   width: 250px;
   height: 200px;
-  border: 2px solid #000;
+  border: 2px solid #000000e3;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
@@ -106,6 +103,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.conteudo-principal-botao:hover{
+  border: 2px solid  #0dd4db;
 }
 
 .imagens-botao{
@@ -122,14 +123,14 @@ margin: 25px;
 }
 
 .text-inicial{
-  background:#0dd4db;
+  background:#0dd4dbab;
   border-radius: 50px;
   width: 1000px;
   height: 70px;
   display: flex;
   text-align: center;
   width: 85%;
-  border: 3px solid #000;
+  border: 2px solid #000;
   margin-top: auto;
   
 }
@@ -138,6 +139,7 @@ margin: 25px;
   flex-basis: 20%;
   flex-grow: 2;
 }
+
 
 .text{
   text-align: left;
