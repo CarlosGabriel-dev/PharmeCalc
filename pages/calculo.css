@@ -1,46 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-  }
-ul li{
-  display: inline-block;
-  margin-right: 20px;
 }
 
-ul li a{
-  text-decoration: none;
-  color: #000;
-  font-size: 16px;
+nav {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
 }
 
-ul li a:hover{
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+ul li a:hover {
     color: #0dd4db;
-  }
+}
 
 .cabecalho {
-    background-color: fff;
-    color: #FFF2E7;
     font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
     font-weight: 400;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 18px
 }
 
-.cabecalho-img{
+.cabecalho-img {
     height: 100px;
     border-radius: 100%;
-  }
+}
 
 .cabecalho-menu {
     display: flex;
     gap: 32px;
     justify-content: space-between;
-    align-items: center;
-}
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
 
+}
 
 .conteudo {
     display: flex;
@@ -65,7 +75,7 @@ form {
     border-radius: 8px;
     padding: 20px;
     margin-left: 20px;
-    
+
 }
 
 .resultado h2 {
@@ -116,7 +126,27 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:#f7c2e2e1;
 }
-
-
+.rodape {
+    background-color: #0dd4db;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rodape p {
+    font-size: 16px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #FFF2E7;
+  }
+  
+  .rodape a {
+    text-decoration: none;
+    color: #FFF2E7;
+  }
