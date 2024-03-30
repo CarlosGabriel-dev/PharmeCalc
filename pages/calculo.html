@@ -17,21 +17,16 @@
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="about.html">Sobre</a></li>
-                <li><a href="#">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="conteudo">
-        <form id="medicationForm">
+        <form id="calculoForm">
             <label for="peso">Peso (kg):</label>
             <input type="number" id="peso" name="peso" required>
-            <label for="altura">Altura (cm):</label>
-            <input type="number" id="altura" name="altura" required>
             <label for="idade">Idade:</label>
             <input type="number" id="idade" name="idade" required>
-            <label for="idade">Comorbidade?</label>
-            <input type="text" id="comorbidade" name="comorbidade" required>
             <button type="submit">Calcular Dosagem</button>
         </form>
 
@@ -40,7 +35,11 @@
             <p id="resultadoTexto"></p>
         </div>
     </div>
-    <script src="app.js" defer></script>
+    <footer class="rodape">
+        <p>Copyright &copy; 2023 PharmeCalc</p>
+    </footer>
+    <script src="calculo.js"></script>
+
 </body>
 
 </html>
