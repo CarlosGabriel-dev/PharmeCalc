@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PharmeCalc</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="index.css">
+    <title>PharmeCalc</title>
     <style>
         /* Adicione este estilo para ocultar o modal por padrão */
     </style>
@@ -13,11 +14,18 @@
 <!--cabeçalho menu de interração-->
 
 <body>
+
     <header class="cabecalho">
+    
         <nav class="cabecalho-menu">
             <a href="/">
-                <img class="cabecalho-img" src="/img/MEd FArme.png" alt="Logo da PharmeMed">
+                <img class="cabecalho-img" src="/pages/img/MEd FArme.png" alt="Logo da PharmeMed">
             </a>
+
+            <div class="div-contador">
+                <p class="p-contador">Acessos <span id="contador">0</span></p>
+            </div>
+            
             <ul>
                 <li>
                     <a href="index.html" class="branco">Página Inicial</a>
@@ -45,7 +53,7 @@
         <!--Botões principais do sistema-->
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModalPesquisa()">
-                <img class="imagens-botao" src="/img/icons8-lupa-60.png" alt="botão de pesquisa">Pesquisa...
+                <img class="imagens-botao" src="/pages/img/icons8-lupa-60.png" alt="botão de pesquisa">Pesquisa...
             </button>
         </div>
         <div class="modal" id="modal1">
@@ -67,75 +75,75 @@
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Antibioticos')">
-                <img class="imagens-botao" src="/img/antibioticos1.png" alt="imagens de comprimidos">
+                <img class="imagens-botao" src="/pages/img/antibioticos1.png" alt="imagens de comprimidos">
                 Antibióticos
             </button>
         </div>
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Anti-Inflamatorios')">
-                <img class="imagens-botao" src="/img/icons8-cápsula-64.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/icons8-cápsula-64.png" alt="imagem">
                 Anti-Inflamatórios
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Anti-Convulsivantes')">
-                <img class="imagens-botao" src="/img/icons8-cérebro-60.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/icons8-cérebro-60.png" alt="imagem">
                 Anti-Convulsivantes
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Anti-Histaminicos')">
-                <img class="imagens-botao" src="/img/anti-histaminicos.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/anti-histaminicos.png" alt="imagem">
                 Anti-Histamínicos
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Anti-Fungicos')">
-                <img class="imagens-botao" src="/img/icons8-mofo-60.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/icons8-mofo-60.png" alt="imagem">
                 Anti-Fúngicos
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Anti-Parasitarios')">
-                <img class="imagens-botao" src="/img/parasita.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/parasita.png" alt="imagem">
                 Anti-Parasitários
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Broncodilatadores')">
-                <img class="imagens-botao" src="/img/inalador.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/inalador.png" alt="imagem">
                 Broncodilatadores
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Corticosteroides')">
-                <img class="imagens-botao" src="/img/remedio.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/remedio.png" alt="imagem">
                 Corticosteróides
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Laxativos')">
-                <img class="imagens-botao" src="/img/desentupidor.png" alt="imagens">
+                <img class="imagens-botao" src="/pages/img/desentupidor.png" alt="imagens">
                 Laxativos
             </button>
         </div>
 
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Sintomaticos')">
-                <img class="imagens-botao" src="/img/icons8-allergy-60.png" alt="imagem">
+                <img class="imagens-botao" src="/pages/img/icons8-allergy-60.png" alt="imagem">
                 Sintomáticos
             </button>
         </div>
         <div class="conteudo-botao">
             <button class="conteudo-principal-botao" onclick="abrirModal('Intravenosa')"><img class="imagens-botao"
-                    src="/img/icons8-bladder-64.png" alt="imagem">Intravenosa</button>
+                    src="/pages/img/icons8-bladder-64.png" alt="imagem">Intravenosa</button>
         </div>
     </nav>
     <footer class="rodape">

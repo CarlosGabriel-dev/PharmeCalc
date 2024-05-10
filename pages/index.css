@@ -288,3 +288,22 @@ button {
   text-decoration: none;
   color: #FFF2E7;
 }
+
+.div-contador{
+  display:inline-block;
+  width: 150px;
+  height: 60px;
+  background-color: #0dd4db;
+  border-radius: 10px;
+  border: 2px solid #000000e3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.p-contador{
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: top;
+}

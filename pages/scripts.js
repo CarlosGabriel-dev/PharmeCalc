@@ -96,3 +96,27 @@ function filtrarMedicamentos(termoPesquisa) {
 
     return null; // Retorna null se nenhum medicamento for encontrado
 }
+
+
+// Contador de acessos ao site 
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Verificar se o contador já existe no armazenamento local
+    let contador = localStorage.getItem("contador");
+    if (contador === null) {
+        // Se não existir, iniciar o contador em 0
+        contador = 0;
+    } else {
+        // Se existir, converter para número
+        contador = parseInt(contador);
+    }
+
+    // Incrementar o contador
+    contador++;
+
+    // Atualizar o valor do contador na página
+    document.getElementById("contador").textContent = contador;
+
+    // Salvar o novo valor do contador no armazenamento local
+    localStorage.setItem("contador", contador.toString());
+});
